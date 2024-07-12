@@ -1,0 +1,15 @@
+numpy
+pandas
+Pillow
+opencv-python
+requests
+boto3
+flask
+gunicorn
+matplotlib
+seaborn
+scikit-learn
+tensorflow
+torch
+torchvision
+nltk
