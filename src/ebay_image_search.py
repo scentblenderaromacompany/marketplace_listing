@@ -32,7 +32,7 @@ def search_image_on_ebay(encoded_image, oauth_token):
         return None
 
 if __name__ == "__main__":
-    image_path = "/home/robertmcasper/marketplace_listing/new_folder/test_image.jpg"
+    image_path = "/workspaces/marketplace_listing/new_folder/product_1/test_image.jpg"
     
     # Read the OAuth token from the file
     with open('oauth_token.txt', 'r') as token_file:

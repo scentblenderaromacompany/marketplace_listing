@@ -14,7 +14,9 @@ def generate_oauth_token(client_id, client_secret):
     return response.json()
 
 if __name__ == "__main__":
-    client_id = "RobertCa-EEEListi-SBX-473448ebb-3cf6b0b0"
-    client_secret = "SBX-73448ebbef34-3dd8-40bd-816d-3ef3"
+    client_id = "YOUR_CLIENT_ID"
+    client_secret = "YOUR_CLIENT_SECRET"
     token_response = generate_oauth_token(client_id, client_secret)
+    with open('oauth_token.txt', 'w') as token_file:
+        token_file.write(token_response['access_token'])
     print(token_response)
