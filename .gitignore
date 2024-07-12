@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# Logs
+*.log
+
+# Config
+config.yaml
+
+# Data
+data/
+new_folder/
+processed/
